@@ -1,0 +1,28 @@
+{
+    "genome_length": 4809037,
+    "ori_center": 3764856,
+    "window_bounds": [
+        3764606,
+        3765106
+    ],
+    "candidate_motifs": [
+        "CCGGAAGCT",
+        "AGCTTCCGG"
+    ],
+    "motif_locations": {
+        "CCGGAAGCT": [
+            3764688,
+            3764693,
+            3764747,
+            3764998,
+            3765003
+        ],
+        "AGCTTCCGG": [
+            3764688,
+            3764693,
+            3764747,
+            3764998,
+            3765003
+        ]
+    }
+}
