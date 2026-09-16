@@ -106,7 +106,9 @@ def find_dna_a_box(
         
         for i in range(len(ori_window) - k + 1):
             pattern = ori_window[i:i + k]
-            if hamming_distance(pattern, motif) <= d or hamming_distance(pattern, rc_motif) <= d:
+            if hamming_distance(pattern, motif) <= d or (
+                rc_motif is not None and hamming_distance(pattern, rc_motif) <= d
+            ):
                 matches.append(start + i)
                 
         motif_locations[motif] = matches
